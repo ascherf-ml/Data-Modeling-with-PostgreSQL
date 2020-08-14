@@ -4,7 +4,6 @@ The task of this project is to help the analytics team to understand what songs 
 Because the data is separated into song files and log files from users, it is necessary to first create tables from the raw data.
 The schema is in this case a star schema with the 'songplays' fact table in the middle and different dimension tables providing supplementary information (users table, songs table, artists table and a time table).
 
-First I created the different tables.
 
 ### Fact Table 
 ___________________
@@ -69,9 +68,9 @@ __________________
 ## File Structure
 **Files used on the project:**
 
-sql_queries.py contains all sql queries
-create_tables.py drops and creates tables.
-etl.py reads and processes files from song_data and log_data and loads them into tables.
+`sql_queries.py` contains all sql queries
+`create_tables.py` drops and creates tables.
+`etl.py` reads and processes files from song_data and log_data and loads them into tables.
 
 ## Project Running Order
 
