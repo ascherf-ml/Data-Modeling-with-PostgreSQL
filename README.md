@@ -75,15 +75,15 @@ __________________
 ## Project Running Order
 
 1. Run in console
-*%run create_tables.py*
+`*%run create_tables.py*`
 2. Run Notebook
-"test.ipynb"
+`"test.ipynb"`
 Verify, that all tables are created properly
 3. Run in console
-*%run etl.py*
+`*%run etl.py*`
 Verify, that all the JSON files are properly processed.
 4. (Optional) Run Notebook
-"test.ipynb"
+`"test.ipynb"`
 Verify, that all the tables have values properly inserted into them.
 
 
